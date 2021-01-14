@@ -1,0 +1,9 @@
+12/20/2020 Dzung Le: 
+	1. private const string PrizesFile = "PrizeModels.csv";
+	   List<PrizeModel> prizes = PrizesFile.FullFilePath().LoadFile().ConvertToPrizeModels();
+
+	This chain of method calling is archeived by having "this" in static classes that will be called.
+
+	2. Ctrl + J: to view methods of class after the "."	
+
+12/19/2020 Dzung Le: C# need to rebuild when make a change in Program.cs. Right click on "Solution 'XXXXXX'" (root) and chose Rebuild Solution. If not working, try to navigate to Debug -> Attach to Process... -> Click on Refresh -> Click on Attach
